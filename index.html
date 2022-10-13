@@ -1,9 +1,37 @@
 <!doctype html>
 <html>
   <head>
+    <script src="./index.js" type="module"></script>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+      }
+
+      form-view {
+        flex: 0 0 30rem;
+      }
+    </style>
   </head>
   <body>
-    <form>
-    </form>
+    <form-view>
+      <form-field name="subreddit" label="Subreddit">
+        <sub-selector></sub-selector>
+      </form-field>
+      <form-field name="comment" label="Comment">
+        <text-input dictionnary="subreddit"></text-input>
+      </form-field>
+      <form-field name="output" label="Output">
+        <text-converter source="comment" dictionnary="subreddit"></text-converter>
+      </form-field>
+      <form-field name="dictionnary" label="Censored Words">
+        <tag-input dictionnary="subreddit"></tag-input>
+      </form-field>
+    </form-view>
   </body>
 </html>
