@@ -36,5 +36,6 @@ export let words = [
     "annex",
     "killed",
     "sanction",
-    "sanctions"
+    "sanctions",
+    "regime",
 ]
