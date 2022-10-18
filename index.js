@@ -134,6 +134,9 @@ class TagInput extends InputWidget {
   }
 
   get label() {
+    if (!this.field) {
+      return ''
+    }
     return `${this.field.label} (${this.words.length})`
   }
 
