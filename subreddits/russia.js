@@ -38,4 +38,5 @@ export let words = [
     "sanction",
     "sanctions",
     "regime",
+    "crimea"
 ]
