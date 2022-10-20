@@ -40,5 +40,7 @@ export let words = [
     "regime",
     "crimea",
     "donbas",
-    "border"
+    "border",
+    "luhansk",
+    "moderator",
 ]
