@@ -57,5 +57,7 @@ export let words = [
     "fuck",
     "fucking",
     "pussy",
-    "pussies"
+    "pussies",
+    "insane",
+    "crazy",
 ]
