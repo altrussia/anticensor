@@ -47,5 +47,6 @@ export let words = [
     "shelling",
     "criminal",
     "criminals",
-    "citizens"
+    "citizens",
+    "starving",
 ]
