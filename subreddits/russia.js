@@ -44,4 +44,8 @@ export let words = [
     "luhansk",
     "moderator",
     "invasion",
+    "shelling",
+    "criminal",
+    "criminals",
+    "citizens"
 ]
