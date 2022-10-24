@@ -34,6 +34,7 @@ export let words = [
     "dictator",
     "proof",
     "annex",
+    "annexation",
     "killed",
     "sanction",
     "sanctions",
@@ -44,10 +45,17 @@ export let words = [
     "luhansk",
     "moderator",
     "invasion",
+    "invaded",
     "shelling",
     "criminal",
     "criminals",
     "citizens",
     "starving",
-    "starve"
+    "starve",
+    "gay",
+    "state",
+    "fuck",
+    "fucking",
+    "pussy",
+    "pussies"
 ]
