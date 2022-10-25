@@ -61,4 +61,5 @@ export let words = [
     "insane",
     "crazy",
     "bank",
+    "law"
 ]
