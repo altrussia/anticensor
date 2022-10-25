@@ -26,8 +26,15 @@
       <form-field name="comment" label="Comment">
         <text-input dictionnary="subreddit"></text-input>
       </form-field>
+      <form-field name="bold_format" label="Highlight censored words">
+        <checkbox-input></checkbox-input>
+      </form-field>
       <form-field name="output" label="Output">
-        <text-converter source="comment" dictionnary="subreddit"></text-converter>
+        <text-converter
+            source="comment"
+            dictionnary="subreddit"
+            highlight="bold_format"
+            ></text-converter>
       </form-field>
       <form-field name="dictionnary" label="Censored Words">
         <tag-input dictionnary="subreddit"></tag-input>

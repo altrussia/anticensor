@@ -43,6 +43,25 @@ class InputWidget extends LitElement {
 }
 
 
+class CheckboxInput extends InputWidget {
+  static _name = "checkbox-input"
+
+  onchange(evt) {
+    this.value = evt.target.checked
+    if (this.field) {
+      this.field.set_value(this.value)
+    }
+  }
+
+  render() {
+    return html`<input
+      type="checkbox"
+      @change=${(evt) => this.onchange(evt)}
+      .checked=${this.value}></input>`
+  }
+}
+
+
 class Selector extends InputWidget {
   static _name = "sub-selector"
 
@@ -179,18 +198,25 @@ class Converter extends InputWidget {
     super();
     this.dictionnary = this.getAttribute('dictionnary')
     this.source = this.getAttribute('source')
+    this.highlight = this.getAttribute('highlight')
   }
 
   render() {
     let dict = ''
     let text = ''
+    let highlight = false
 
     if (this.field && this.field.view) {
       dict = this.field.view.values[this.dictionnary]
       text = this.field.view.values[this.source] || ''
+      highlight = this.field.view.values[this.highlight] || false
     }
 
-    let output = converter.convert(text, converter.get_dictionnary(dict) || [])
+    let output = converter.convert(
+      text,
+      converter.get_dictionnary(dict) || [],
+      highlight
+    )
 
     return html`
       <div>
@@ -370,6 +396,7 @@ widgets.push(FormField)
 widgets.push(FormView)
 widgets.push(TagInput)
 widgets.push(Converter)
+widgets.push(CheckboxInput)
 // widgets.push(Converter)
 
 for (let widget of widgets) {
