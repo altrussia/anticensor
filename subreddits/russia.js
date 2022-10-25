@@ -8,6 +8,7 @@ export let words = [
     "wars",
     "civilian",
     "civilians",
+    "ban",
     "banned",
     "sub",
     "nazi",
@@ -42,6 +43,7 @@ export let words = [
     "crimea",
     "donbas",
     "border",
+    "borders",
     "luhansk",
     "moderator",
     "invasion",
@@ -61,5 +63,7 @@ export let words = [
     "insane",
     "crazy",
     "bank",
-    "law"
+    "law",
+    "dick",
+    "navalny"
 ]
