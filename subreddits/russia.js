@@ -65,5 +65,7 @@ export let words = [
     "bank",
     "law",
     "dick",
-    "navalny"
+    "navalny",
+    "daddy",
+    "shit",
 ]
