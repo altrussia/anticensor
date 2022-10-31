@@ -68,4 +68,6 @@ export let words = [
     "navalny",
     "daddy",
     "shit",
+    "lie",
+    "lies",
 ]
