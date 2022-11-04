@@ -62,6 +62,7 @@ export let words = [
     "state",
     "sub",
     "troops",
+    "true",
     "truth",
     "ukraine",
     "ukrainian",
