@@ -37,6 +37,7 @@ export let words = [
     "luhansk",
     "military",
     "moderator",
+    "mods",
     "nato",
     "navalny",
     "nazi",
