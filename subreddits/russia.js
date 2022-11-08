@@ -27,6 +27,7 @@ export let words = [
     "gay",
     "georgia",
     "insane",
+    "invade",
     "invaded",
     "invasion",
     "killed",
