@@ -43,6 +43,7 @@ export let words = [
     "nato",
     "navalny",
     "nazi",
+    "objective",
     "poor",
     "president",
     "proof",
