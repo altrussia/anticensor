@@ -60,6 +60,7 @@ export let words = [
     "russians",
     "sanction",
     "sanctions",
+    "security",
     "shelling",
     "shit",
     "soldier",
