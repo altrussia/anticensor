@@ -78,5 +78,6 @@ export let words = [
     "vlad",
     "war",
     "wars",
-    "west"
+    "west",
+    "whataboutism",
 ]
