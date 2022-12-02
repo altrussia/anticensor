@@ -51,6 +51,7 @@ export let words = [
     "president",
     "proof",
     "propaganda",
+    "puppet",
     "pussies",
     "pussy",
     "putin",
