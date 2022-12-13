@@ -22,6 +22,7 @@ export let words = [
     "dictator",
     "donbas",
     "economy",
+    "eu",
     "fascist",
     "fuck",
     "fucking",
