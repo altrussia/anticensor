@@ -39,6 +39,7 @@ export let words = [
     "lie",
     "lies",
     "luhansk",
+    "mass",
     "media",
     "military",
     "moderator",
