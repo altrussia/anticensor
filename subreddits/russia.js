@@ -7,6 +7,7 @@ export let words = [
     "banned",
     "border",
     "borders",
+    "bot",
     "citizens",
     "civilian",
     "civilians",
